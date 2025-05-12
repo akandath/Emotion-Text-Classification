@@ -24,6 +24,13 @@ This project implements a transformer-based emotion classifier trained on the [G
 | 2-2-256          | 40.6%        | 0.8449  |
 | 2-4-256          | 40.9%        | 0.8446  |
 
+The best-performing model (`L=2, H=4, D=256`) was further evaluated on the test set:
+
+- **🧪 Test Accuracy**: `0.4078`
+- **🧪 Test AUC (macro)**: `0.8409`
+
+These results confirm the model's strong ranking ability and its consistency across validation and test sets in a challenging 28-class emotion classification task.
+
 ## 📈 Visualizations
 
 - ROC curve comparison across top models

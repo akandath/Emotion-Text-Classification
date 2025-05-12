@@ -1,6 +1,6 @@
 # Emotion Classification with Custom Transformers
 
-This project implements a transformer-based emotion classifier trained on the [GoEmotions](https://github.com/google-research/goemotions) dataset, developed by Google Research. The dataset contains 200k+ Reddit comments labeled with 28 emotions. The goal is to train, evaluate, and compare different transformer configurations from scratch — without relying on pretrained models.
+This project implements a transformer-based emotion classifier trained on the [GoEmotions](https://huggingface.co/datasets/google-research-datasets/go_emotions) dataset, developed by Google Research. The dataset contains 200k+ Reddit comments labeled with 28 emotions. The goal is to train, evaluate, and compare different transformer configurations from scratch — without relying on pretrained models.
 
 ## 🚀 Highlights
 
@@ -12,7 +12,7 @@ This project implements a transformer-based emotion classifier trained on the [G
 
 ## 🧠 Key Components
 
-- **Data**: GoEmotions (`google-research-datasets/go_emotions` via 🤗 Datasets)
+- **Data**: GoEmotions (`https://huggingface.co/datasets/google-research-datasets/go_emotions` via 🤗 Datasets)
 - **Model**: PyTorch-based transformer encoder
 - **Evaluation**: Accuracy, macro-AUC, ROC curves, and confusion matrices
 
@@ -33,7 +33,7 @@ This project implements a transformer-based emotion classifier trained on the [G
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/akandath/emotion-transformer.git
+   git clone https://github.com/akandath/Emotion-Text-Classification
    cd emotion-transformer
 
 2. Install dependencies:
@@ -44,3 +44,17 @@ This project implements a transformer-based emotion classifier trained on the [G
     ```bash
     jupyter notebook classifier.ipynb
 
+## 🙏 Acknowledgments
+
+- **GoEmotions Dataset** by [Google Research](https://huggingface.co/datasets/google-research-datasets/go_emotions) for providing the annotated Reddit comments used in this project.
+- **Hugging Face 🤗** for their open-source `datasets` and `transformers` libraries, which made data handling and tokenization seamless.
+- **Carnegie Mellon University** for the academic environment and coursework that inspired this deep dive into custom transformer architectures.
+- **PyTorch** for providing the flexible deep learning framework used to build and train all models from scratch.
+
+## 📬 Contact Me
+
+If you have questions, suggestions, or would like to collaborate, feel free to reach out:
+
+**Ashwin Kandath**  
+📧 ash.kandath@gmail.com 
+🔗 [LinkedIn](https://www.linkedin.com/in/ashwinkandath/)

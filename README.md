@@ -24,6 +24,12 @@ This project implements a transformer-based emotion classifier trained on the [G
 | 2-2-256          | 40.6%        | 0.8449  |
 | 2-4-256          | 40.9%        | 0.8446  |
 
+> **Note:**  
+> `L-H-D` represents the model configuration:  
+> - **L** = number of transformer encoder layers  
+> - **H** = number of self-attention heads  
+> - **D** = model dimensionality (`d_model`), i.e., the size of each token embedding
+
 The best-performing model (`L=2, H=4, D=256`) was further evaluated on the test set:
 
 - **🧪 Test Accuracy**: `0.4078`

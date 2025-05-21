@@ -70,4 +70,4 @@ If you have questions, suggestions, or would like to collaborate, feel free to r
 
 **Ashwin Kandath**  
 📧 ash.kandath@gmail.com 
-🔗 [LinkedIn](https://www.linkedin.com/in/ashwinkandath/)
+🔗 [LinkedIn](https://www.linkedin.com/in/ashwin-kandath/)

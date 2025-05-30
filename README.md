@@ -47,7 +47,6 @@ These results confirm the model's strong ranking ability and its consistency acr
 1. Clone the repo:
    ```bash
    git clone https://github.com/akandath/Emotion-Text-Classification
-   cd emotion-transformer
 
 2. Install dependencies:
    ```bash
@@ -55,7 +54,7 @@ These results confirm the model's strong ranking ability and its consistency acr
 
 3. Run the Notebook:
     ```bash
-    jupyter notebook classifier.ipynb
+    jupyter notebook classifier_cleaned.ipynb
 
 ## 🙏 Acknowledgments
 
